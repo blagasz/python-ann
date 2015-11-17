@@ -39,35 +39,51 @@ kliens, a Google, a Yahoo!, a CERN és a NASA
 Using Interactive Python
 ------------------------
 
+
+
+http://ipython.org/
+
 http://ipython.org/notebook.html
 
+http://nbviewer.ipython.org/
 
+http://jupyter.readthedocs.org/en/latest/index.html
 
-
+http://nbviewer.ipython.org/github/masinoa/machine_learning/blob/master/04_Neural_Networks.ipynb
 
 
 
 Tutorials, Packages, Implementations
 ------------------------------------
+
 Neurolab code
+
 https://github.com/blagasz/neurolab
 
 Neurolab documentation
+
 https://pythonhosted.org/neurolab/index.html
 
 
 
 NEURAL NETWORKS by Christos Stergiou and Dimitrios Siganos
+
 http://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.html
 
+
 Neural Network Back-Propagation using Python
+
 https://visualstudiomagazine.com/articles/2014/12/01/back-propagation-using-python.aspx
 
+
 Neural Networks with backpropagation for XOR using one hidden layer
+
 http://www.bogotobogo.com/python/python_Neural_Networks_Backpropagation_for_XOR_using_one_hidden_layer.php
 
 
+Simple Back-propagation Neural Network in Python source code
 
+http://code.activestate.com/recipes/578148-simple-back-propagation-neural-network-in-python-s/
 
 
 

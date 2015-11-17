@@ -23,6 +23,8 @@ tar = y.reshape(size,1)
 net = nl.net.newff([[-7, 7]],[5, 1])
 
 # Train network
+# default train method is
+# BroydenFletcherGoldfarbShanno (BFGS) method Using scipy.optimize.fmin_bfgs
 error = net.train(inp, tar, epochs=500, show=100, goal=0.02)
 
 # Simulate network
