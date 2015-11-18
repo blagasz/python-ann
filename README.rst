@@ -6,40 +6,39 @@ Programming ANN in Python
 Why Python
 ----------
 
-Más nyelvekhez képest könnyen elsajátítható.
- ̋
-Tömörsége miatt az algoritmusok áttekinthet obbek,
-oktatási szempontból a kódok kivetítése kevesebb helyet
-igényel. Áttekinthet osége a struktogramokkal vetekszik.
-A kód olvashatósága kiemelt szerepet játszik a Pythonban.
-Mind a procedurális, az objektumorientált és a funkcionális
-központú programozást támogatja.
-Rendszer független (Windows, Linux, Mac OS X).
- ̋ ami a háttérkönyvtáraira is igaz
-Szabadon letölthet o,
-(webkiszolgáló, numerikus és szimbolikus számítások,
-szimuláció stb.)
+Easy to learn
 
-A tudományos számítások területén elterjedt. Olyan drága
-szoftverekkel vetekszik, mint a MATLAB, Mathematica
-vagy a Maple.
+Very readable code (easy to follow structure)
 
-1980-as években kezdte fejleszteni Guido van Rossum.
-1989-ben kezd od
-az els o  ̋ implementációja.
-1994-re elkészült a Python 1.0.
-Jelenleg használt változatok a 2.7.5-ös és a 3.3.2-es
-verziók.
-Többek között használja a YouTube, az eredeti BitTorrent
-kliens, a Google, a Yahoo!, a CERN és a NASA
+Procedural, object-oriented and functional element are
+all present to some extent
+
+Available on all platforms
+
+Completele free
+
+Widely used in scientific computing
+(as powerful as MATLAB, Mathematica or Maple)
+
+Widely used for general programming tasks
+
+
+History
+*******
+
+1980s Guido van Rossum starts working on Python
+1989 first implementation ready
+1994 Python 1.0
+2008 Python 2to3 transition started
+Current versions 3.5.0 and 2.7.10
+(2to3 transition almost finished)
+https://wiki.python.org/moin/Python2orPython3
 
 
 
 
 Using Interactive Python
 ------------------------
-
-
 
 http://ipython.org/
 
