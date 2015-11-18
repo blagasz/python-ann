@@ -27,12 +27,23 @@ History
 *******
 
 1980s Guido van Rossum starts working on Python
+
 1989 first implementation ready
+
 1994 Python 1.0
+
 2008 Python 2to3 transition started
+
 Current versions 3.5.0 and 2.7.10
-(2to3 transition almost finished)
+
+2 to 3 transition almost finished
 https://wiki.python.org/moin/Python2orPython3
+
+
+Python Tutorial
+***************
+
+https://docs.python.org/2/tutorial/index.html
 
 
 
@@ -49,6 +60,12 @@ http://nbviewer.ipython.org/
 http://jupyter.readthedocs.org/en/latest/index.html
 
 http://nbviewer.ipython.org/github/masinoa/machine_learning/blob/master/04_Neural_Networks.ipynb
+
+https://www.python.org/shell/
+
+https://repl.it/languages/python3
+
+
 
 
 
@@ -86,44 +103,31 @@ http://code.activestate.com/recipes/578148-simple-back-propagation-neural-networ
 
 
 
-Design problems
----------------
+Design desisions
+----------------
 
 To find the most convenient syntax for creating neural networks
 and using them is not straight forward.
 
+Standardize input data
 
-The non-linear function is confusingly called sigmoid, but uses a tanh. In a lot of people's minds the sigmoid function is just the logistic function 1/1+e^-x, which is very different from tanh! The derivative of tanh is indeed (1 - y**2), but the derivative of the logistic function is s*(1-s). The link does not help very much with this.
+Usually need to experiment with network layout
 
+Let the number of neurons in each layer be *m* for input layer neurons, *n* for
+output layer neurons and *p* for the hidden layer, then the training data
+input-output numbers should be minimum 10 times ``(m+1)p + (p+1)n``.
 
-
-Jelölje a továbbiakban m az inputok, n az outputok és p
-a rejtett neuronok számát.
-
-
-Az adatokat érdemes standardizálni.
-A rendelkezésre álló input-célérték párok száma (N)
-legyen legalább a súlyok számának ((m + 1)p + (p + 1)n)
-tízszerese.
-
-Az input-célérték adatokat 50:25:25 arányban érdemes
-tanulási, tesztelési és kiértékelési adatokba sorolni. A
-tanulási folyamat addig folytatandó, amíg a kiértékelési
-adatok a hibafüggvény csökken. Végül a tesztelési
-adatokon ellen orizzük,
-hogy milyen jó eredményeket
-produkál a betanított neurális hálónk.
+The input-output traning pair should be divided in 50:25:25 into
+training, testing, and actual working data.
 
 
+`Analyze standalone code`_
 
-Analyze standalone code
------------------------
-
-link
+.. _Analyze standalone code: example-simple-bp.py
 
 
+`Walk through one neurolab example`_
 
-Walk through one neurolab example
------------------------------
+.. _Walk through one neurolab example: example-neurolab.py
 
-link
+
